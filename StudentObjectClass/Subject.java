@@ -1,4 +1,4 @@
-package ObjectClass;
+package StudentObjectClass;
 
 public class Subject {
 String title;

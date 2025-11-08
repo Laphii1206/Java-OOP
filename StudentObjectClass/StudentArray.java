@@ -1,4 +1,4 @@
-package ObjectClass;
+package StudentObjectClass;
 import java.util.*;
 public class StudentArray {
     static Scanner scanner = new Scanner(System.in);
@@ -12,7 +12,7 @@ public class StudentArray {
 public static void addStudent(Student[] s){
     System.out.print("Enter Student Name: ");
     String name = scanner.nextLine();
-    System.out.print("Enter Student Total: ");
+    System.out.print("Enter Student Score: ");
     int total = scanner.nextInt();
     scanner.nextLine(); // consume the newline character
     s[Student.count] = new Student(name,total);

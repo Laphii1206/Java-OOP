@@ -1,4 +1,4 @@
-package ObjectClass;
+package StudentObjectClass;
 public class StudentClient {
     public static void main(String[] args) {
         Student s1=new Student(); // object declaration
