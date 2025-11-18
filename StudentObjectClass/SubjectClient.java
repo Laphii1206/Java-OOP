@@ -1,4 +1,4 @@
-package ObjectClass;
+package StudentObjectClass;
 
 public class SubjectClient {
     public static void main(String[] args) {
@@ -6,6 +6,7 @@ public class SubjectClient {
         Subject s1=new Subject("OOP",cw);
         s1.getC1().title="Project";
         s1.getC1().setPercentage(20);
+        System.out.println(s1);
     }
 
 }

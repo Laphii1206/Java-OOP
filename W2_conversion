@@ -4,8 +4,8 @@ public class W2_conversion {
         int x =70;
         float money =x;
         x = (int)money; // explicit conversion
-        char d='a';
+        char d='a'; // 97
         x = d;
-        d=(char)x;
+        d=(char)x; // a
     }
 }

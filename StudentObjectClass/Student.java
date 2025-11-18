@@ -1,4 +1,4 @@
-package ObjectClass;
+package StudentObjectClass;
 //blueprint
 public class Student {
     static int count=0;
